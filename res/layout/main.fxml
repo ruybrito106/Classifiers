@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainController">
+   <children>
+      <SplitPane orientation="VERTICAL" prefHeight="79.0" prefWidth="600.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="108.0" prefWidth="598.0">
+               <children>
+               
+                         <Label layoutX="192.0" layoutY="14.0" prefHeight="50.0" prefWidth="215.0" text="Escolha um classificador" textAlignment="CENTER" textOverrun="CLIP">
+                     <font>
+                        <Font name="Lato Regular" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="322.0" prefWidth="600.0">
+         <children>
+             <Button layoutX="53.0" layoutY="24.0" prefHeight="126.0" prefWidth="222.0" text="kNN">
+               <font>
+                  <Font name="Lato Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="306.0" layoutY="24.0" prefHeight="126.0" prefWidth="222.0" text="SVM">
+               <font>
+                  <Font name="Lato Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="53.0" layoutY="171.0" prefHeight="126.0" prefWidth="222.0" text="MLP">
+               <font>
+                  <Font name="Lato Bold" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="306.0" layoutY="171.0" prefHeight="126.0" prefWidth="222.0" text="Decision&#10;Tree" textAlignment="CENTER">
+               <font>
+                  <Font name="Lato Bold" size="25.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+
+</VBox>
